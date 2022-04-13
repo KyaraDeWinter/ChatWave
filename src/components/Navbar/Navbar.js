@@ -17,9 +17,9 @@ function Navbar() {
             style={{ maxHeight: '100px' }}
             navbarScroll
         >
-            <Nav.Link href="#action1">Nieuws</Nav.Link> 
+            <Nav.Link href="#action1">News</Nav.Link> 
             <Nav.Link href="#action2">Join Premium</Nav.Link>
-            <Nav.Link href="#action3">Over ChatWave</Nav.Link>
+            <Nav.Link href="#action3">About ChatWave</Nav.Link>
             <Nav.Link href="#action4">Contact</Nav.Link>
         </Nav>
         </Navigationbar.Collapse>
