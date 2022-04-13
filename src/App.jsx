@@ -12,7 +12,7 @@ function App() {
     <>
       <Navbar/>
       <Banner/>
-      <Card/>
+      <Card id="action1"/>
       <Premium/>
       <Footer/>
     </>

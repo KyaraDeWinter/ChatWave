@@ -15,32 +15,32 @@ function Premium() {
 
   return (
     <>
-        <Container className='premium'>
-            <Card>
-            <Card.Body>
-            <Row>
-                <Col>
-                    <Card.Title>Card Title</Card.Title>
-                    <Card.Text>
-                    Some quick example text to build on the card title and make up the bulk of
-                    the card's content.
-                    </Card.Text>
-                </Col>
-                <Col>
-                <StripeCheckout
-                    token={onToken}
-                    name="Join The Premium Wave!"
-                    description="Extra mogelijkheden met Premium!" 
-                    currency='eur'
-                    amount="899"
-                    panelLabel="Betaal Eenmalig " 
-                    stripeKey="pk_test_51KlA5ZCyeIe2pvAfATPuEeSV3NNynnqDrf9RuZOTeeIpmHd5wPgXDyt0c1BCIGHNN8sfU2uMWD6oNSl596rBvwlp001LAU01py"
-                />
-                </Col>
-            </Row>
-            </Card.Body>
-            </Card>
-        </Container>
+    <Container className='premium'>
+        <Card className='premiumCard'>
+        <Card.Body>
+        <Row>
+            <Col>
+                <Card.Title>Card Title</Card.Title>
+                <Card.Text>
+                Some quick example text to build on the card title and make up the bulk of
+                the card's content.
+                </Card.Text>
+            </Col>
+            <Col>
+            <StripeCheckout
+                token={onToken}
+                name="Join The Premium Wave!"
+                description="Extra mogelijkheden met Premium!" 
+                currency='eur'
+                amount="899"
+                panelLabel="Betaal Eenmalig " 
+                stripeKey="pk_test_51KlA5ZCyeIe2pvAfATPuEeSV3NNynnqDrf9RuZOTeeIpmHd5wPgXDyt0c1BCIGHNN8sfU2uMWD6oNSl596rBvwlp001LAU01py"
+            />
+            </Col>
+        </Row>
+        </Card.Body>
+        </Card>
+    </Container>
     </>
   );
 }
