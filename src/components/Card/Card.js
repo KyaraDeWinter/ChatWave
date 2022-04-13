@@ -6,6 +6,7 @@ import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
 import Card from 'react-bootstrap/Card';
 import Button from 'react-bootstrap/Button';
+import Badge from 'react-bootstrap/Badge';
 
 function Cards() {
   return (
@@ -16,7 +17,7 @@ function Cards() {
             <Card>
             <Card.Img variant="top" src="images/join.png" />
             <Card.Body>
-                <Card.Title>Card Title</Card.Title>
+                <Card.Title>Join The Community <Badge bg="secondary">New</Badge></Card.Title>
                 <Card.Text>
                 Some quick example text to build on the card title and make up the bulk of
                 the card's content.
@@ -29,7 +30,7 @@ function Cards() {
             <Card>
             <Card.Img variant="top" src="images/premium.png" />
             <Card.Body>
-                <Card.Title>Card Title</Card.Title>
+                <Card.Title>Benefits of Premium</Card.Title>
                 <Card.Text>
                 Some quick example text to build on the card title and make up the bulk of
                 the card's content.
@@ -42,7 +43,7 @@ function Cards() {
             <Card>
             <Card.Img variant="top" src="images/live.png" />
             <Card.Body>
-                <Card.Title>Card Title</Card.Title>
+                <Card.Title>ChatWave is LIVE!</Card.Title>
                 <Card.Text>
                 Some quick example text to build on the card title and make up the bulk of
                 the card's content.

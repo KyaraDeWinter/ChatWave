@@ -4,4 +4,6 @@
 
 .premiumCard {
     padding: 2rem 0rem 2rem 0rem;
+    background: rgb(248,151,174);
+    background: linear-gradient(156deg, rgba(248,151,174,0.6337885495995272) 0%, rgba(118,91,241,1) 100%);
 }

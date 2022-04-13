@@ -16,14 +16,13 @@ function Premium() {
   return (
     <>
     <Container className='premium'>
-        <Card className='premiumCard'>
+        <Card className="premiumCard">
         <Card.Body>
         <Row>
             <Col>
-                <Card.Title>Card Title</Card.Title>
+                <Card.Title>Become a ChatWave Premium Member!</Card.Title>
                 <Card.Text>
-                Some quick example text to build on the card title and make up the bulk of
-                the card's content.
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
                 </Card.Text>
             </Col>
             <Col>
