@@ -1,0 +1,9 @@
+* {
+    margin: auto;
+    -ms-overflow-style: none;
+    scroll-behavior: smooth;
+  }
+  
+  ::-webkit-scrollbar {
+    display: none;
+  }
