@@ -15,7 +15,7 @@ function Premium() {
 
   return (
     <>
-    <Container className='premium'>
+    <Container id="premium" className='premium'>
         <Card className="premiumCard">
         <Card.Body>
         <Row>

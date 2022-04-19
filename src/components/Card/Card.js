@@ -11,7 +11,7 @@ import Badge from 'react-bootstrap/Badge';
 function Cards() {
   return (
     <>
-        <Container className='cards'>
+        <Container id="card" className='cards'>
         <Row>
             <Col>
             <Card>

@@ -17,10 +17,10 @@ function Navbar() {
             style={{ maxHeight: '100px' }}
             navbarScroll
         >
-            <Nav.Link href="#action1">News</Nav.Link> 
-            <Nav.Link href="#action2">Join Premium</Nav.Link>
-            <Nav.Link href="#action3">About ChatWave</Nav.Link>
-            <Nav.Link href="#action4">Contact</Nav.Link>
+            <Nav.Link href="#card">News</Nav.Link> 
+            <Nav.Link href="#premium">Join Premium</Nav.Link>
+            <Nav.Link href="#about">About ChatWave</Nav.Link>
+            <Nav.Link href="#contact">Contact</Nav.Link>
         </Nav>
         </Navigationbar.Collapse>
     </Container>

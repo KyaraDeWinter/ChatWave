@@ -7,7 +7,7 @@ import Accordion from 'react-bootstrap/Accordion';
 function About() {
   return (
     <>
-        <Container className='about'>
+        <Container id="about" className='about'>
         <Accordion defaultActiveKey="0">
             <Accordion.Item eventKey="0">
                 <Accordion.Header>What are the Benefits of Premium?</Accordion.Header>
