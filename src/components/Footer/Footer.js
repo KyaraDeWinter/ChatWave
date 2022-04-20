@@ -16,11 +16,11 @@ function Footer() {
                 <p>Tel: +31 0000000</p>
             </Col>
             <Col>
-                <h5>Navigatie</h5>
+                <h5>Navigation</h5>
                 <hr/>
+                <p>News</p>
                 <p>Premium</p>
-                <p>Nieuws</p>
-                <p>Over Ons</p>
+                <p>About Us</p>
             </Col>
         </Row>
     </div>

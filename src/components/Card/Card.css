@@ -11,6 +11,10 @@
 
 .button {
     background-color: #785BF1 !important;
-    color: black;
     border: none;
+}
+
+.button .link {
+    color: black !important;
+    text-decoration: none;
 }

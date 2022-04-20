@@ -4,8 +4,6 @@ import { BrowserRouter as Router, Switch, Route, Redirect,} from "react-router-d
 import { Link } from "react-router-dom";
 import './Card.css';
 
-// import News from './pages/News/News.js';
-
 import 'bootstrap/dist/css/bootstrap.min.css';
 import Container from 'react-bootstrap/Container';
 import Row from 'react-bootstrap/Row';
@@ -29,7 +27,7 @@ function Cards() {
                 the card's content.
                 </Card.Text>
                 <Button className='button'>
-                <Link to="/News">Read More..</Link>
+                <Link className='link' to="/News">Read More..</Link>
                 </Button>
             </Card.Body>
             </Card>
@@ -44,7 +42,7 @@ function Cards() {
                 the card's content.
                 </Card.Text>
                 <Button className='button'>
-                <Link to="/News">Read More..</Link>
+                <Link className='link' to="/News">Read More..</Link>
                 </Button>
             </Card.Body>
             </Card>
@@ -59,7 +57,7 @@ function Cards() {
                 the card's content.
                 </Card.Text>
                 <Button className='button'>
-                <Link to="/News">Read More..</Link>
+                <Link className='link' to="/News">Read More..</Link>
                 </Button>
             </Card.Body>
             </Card>
