@@ -1,7 +1,10 @@
 import React from 'react';
 import ReactDOM from "react-dom";
-import { BrowserRouter, Routes, Route } from "react-router-dom";
+import { BrowserRouter as Router, Switch, Route, Redirect,} from "react-router-dom";
+import { Link } from "react-router-dom";
 import './Card.css';
+
+// import News from './pages/News/News.js';
 
 import 'bootstrap/dist/css/bootstrap.min.css';
 import Container from 'react-bootstrap/Container';
@@ -25,7 +28,9 @@ function Cards() {
                 Some quick example text to build on the card title and make up the bulk of
                 the card's content.
                 </Card.Text>
-                <Button className='button'>Go somewhere</Button>
+                <Button className='button'>
+                <Link to="/News">Read More..</Link>
+                </Button>
             </Card.Body>
             </Card>
             </Col>
@@ -38,7 +43,9 @@ function Cards() {
                 Some quick example text to build on the card title and make up the bulk of
                 the card's content.
                 </Card.Text>
-                <Button className='button'>Go somewhere</Button>
+                <Button className='button'>
+                <Link to="/News">Read More..</Link>
+                </Button>
             </Card.Body>
             </Card>
             </Col>
@@ -51,7 +58,9 @@ function Cards() {
                 Some quick example text to build on the card title and make up the bulk of
                 the card's content.
                 </Card.Text>
-                <Button className='button'>Go somewhere</Button>
+                <Button className='button'>
+                <Link to="/News">Read More..</Link>
+                </Button>
             </Card.Body>
             </Card>
             </Col>
