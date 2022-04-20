@@ -15,11 +15,11 @@ import Badge from 'react-bootstrap/Badge';
 function Cards() {
   return (
     <>
-        <Container id="card" className='cards'>
+        <Container id="news" className='cards'>
         <Row>
             <Col>
             <Card>
-            <Card.Img variant="top" src="images/join.png" />
+            <Card.Img variant="top" src="../images/join.png"/>
             <Card.Body>
                 <Card.Title>Join The Community <Badge bg="secondary">New</Badge></Card.Title>
                 <Card.Text>
@@ -34,7 +34,7 @@ function Cards() {
             </Col>
             <Col>
             <Card>
-            <Card.Img variant="top" src="images/premium.png" />
+            <Card.Img variant="top" src="../images/premium.png"/>
             <Card.Body>
                 <Card.Title>Benefits of Premium</Card.Title>
                 <Card.Text>
@@ -49,7 +49,7 @@ function Cards() {
             </Col>
             <Col>
             <Card>
-            <Card.Img variant="top" src="images/live.png" />
+            <Card.Img variant="top" src="../images/live.png"/>
             <Card.Body>
                 <Card.Title>ChatWave is LIVE!</Card.Title>
                 <Card.Text>

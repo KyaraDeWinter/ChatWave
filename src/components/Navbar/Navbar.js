@@ -20,9 +20,21 @@ function Navbar() {
             style={{ maxHeight: '100px' }}
             navbarScroll
         >
-            <Nav.Link><Link className='link' to="/Home" href="#card">News</Link></Nav.Link> 
-            <Nav.Link><Link className='link' to="/Home" href="#premium">Premium</Link></Nav.Link>
-            <Nav.Link><Link className='link' to="/Home" href="#about">About ChatWave</Link></Nav.Link>
+            <Nav.Link>
+              <div onClick={() => window.location.replace("/#news")}>
+                <span>News</span>
+              </div>
+            </Nav.Link> 
+            <Nav.Link>
+              <div onClick={() => window.location.replace("/#premium")}>
+                <span>Premium</span>
+              </div>
+            </Nav.Link>
+            <Nav.Link>
+              <div onClick={() => window.location.replace("/#about")}>
+                <span>About</span>
+              </div>
+            </Nav.Link>
             <Nav.Link><Link className='link' to="/Contactpage">Contact</Link></Nav.Link>
         </Nav>
         </Navigationbar.Collapse>
